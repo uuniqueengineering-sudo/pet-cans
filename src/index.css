@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    --font-display: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    --color-navy: #0F1E36;
+    --color-navy-dark: #0A1424;
+    --color-navy-light: #182C4D;
+    --color-ochre: #C88214;
+    --color-ochre-dark: #A5680B;
+    --color-ochre-light: #DF9B2D;
+    --color-cream: #FAF6EE;
+    --color-cream-card: #FFFFFF;
+    --color-cream-dark: #F0EAE1;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: #FAF6EE;
+    color: #0F1E36;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  /* Eliminate 300ms tap delay and improve touch responsiveness on all mobile devices */
+  button, 
+  a, 
+  input, 
+  select, 
+  textarea, 
+  [role="button"] {
+    touch-action: manipulation;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* GPU hardware acceleration for smooth 60fps/120fps scrolling & zero animation jank */
+.gpu-accelerated {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Content visibility optimization for heavy off-screen sections (prevents lag on mobile) */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 500px;
+}
+
+/* Subtle Geometric Architectural Grid with Warm Parchment Tones */
+.bg-grid-subtle {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(15, 30, 54, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15, 30, 54, 0.05) 1px, transparent 1px);
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(rgba(15, 30, 54, 0.09) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Crisp Warm Ochre Selection */
+::selection {
+  background-color: #C88214;
+  color: #FFFFFF;
+}
+
+/* Smooth custom scrollbars */
+@media (hover: hover) and (pointer: fine) {
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FAF6EE;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D9CEBE;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C88214;
+  }
+}

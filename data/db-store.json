@@ -1,0 +1,1205 @@
+{
+  "users": [
+    {
+      "id": "usr-uunique-primary",
+      "email": "uunequeengineering@gmail.com",
+      "name": "Super Admin (Uunique Engineering)",
+      "passwordHash": "e8cf184bcb32ced7b391cf860037be98b285d8d290b1ccc45f4968f7b544a0f2",
+      "role": "super_admin",
+      "isActive": true,
+      "createdAt": "2026-09-04T05:00:00.000Z"
+    },
+    {
+      "id": "usr-uunique-2",
+      "email": "uuniqueengineering@gmail.com",
+      "name": "Super Admin (Uunique Engineering)",
+      "passwordHash": "e8cf184bcb32ced7b391cf860037be98b285d8d290b1ccc45f4968f7b544a0f2",
+      "role": "super_admin",
+      "isActive": true,
+      "createdAt": "2026-09-04T05:00:00.000Z"
+    },
+    {
+      "id": "usr-super-1",
+      "email": "admin@petcans.in",
+      "name": "Executive Super Admin",
+      "passwordHash": "e8cf184bcb32ced7b391cf860037be98b285d8d290b1ccc45f4968f7b544a0f2",
+      "role": "super_admin",
+      "isActive": true,
+      "createdAt": "2026-09-01T10:31:18.603Z",
+      "lastLoginAt": "2026-09-04T12:41:56.263Z"
+    },
+    {
+      "id": "usr-mgr-1",
+      "email": "manager@petcans.in",
+      "name": "Plant & Operations Manager",
+      "passwordHash": "56e7e4158b2bee4282143cfa9c05bfc9ef8486c1896afccf28ac5ecc65f8df7f",
+      "role": "manager",
+      "isActive": true,
+      "createdAt": "2026-09-01T10:31:18.603Z"
+    },
+    {
+      "id": "usr-stf-1",
+      "email": "staff@petcans.in",
+      "name": "Support & Inquiries Desk",
+      "passwordHash": "1abe3615dab8fd089b5b2e6f3102bf40a334d69ea22ed41a77ad21e4fee8f2a4",
+      "role": "staff",
+      "isActive": true,
+      "createdAt": "2026-09-01T10:31:18.603Z"
+    }
+  ],
+  "websiteSettings": {
+    "companyName": "PET Cans",
+    "brandName": "PET Cans India (by Uunique)",
+    "parentCompany": "Uunique Engineering",
+    "phone": "+91 79490 92919",
+    "phoneAlt": "+91 98110 00000",
+    "email": "uunequeengeneering@gmail.com",
+    "gmail": "uunequeengeneering@gmail.com",
+    "salesEmail": "uunequeengeneering@gmail.com",
+    "careersEmail": "uunequeengeneering@gmail.com",
+    "reportRecipientEmail": "uunequeengeneering@gmail.com",
+    "registeredAddress": "Plot No. 71/7, Rama Road, Najafgarh Road Industrial Area, New Delhi - 110015, India",
+    "businessHoursWeekdays": "Monday\u2013Saturday: 9:00 AM \u2013 6:30 PM IST",
+    "businessHoursSunday": "Sunday: Closed (Emergency dispatch on schedule)",
+    "autoReportIntervalHours": 12
+  },
+  "siteImages": {
+    "hero": "/images/transpet_wide_hero_packaging_plastic_caps.webp",
+    "foodJars": "/images/food_pet_jars_photo_1788334078314.webp",
+    "beverageCans": "/images/beverage_cans_photo_1788334091442.webp",
+    "kingFlatCan": "/images/king_flat_can_photo_1788334106415.webp",
+    "factory": "/images/factory_facility_1788254175330.webp",
+    "customPackaging": "/images/custom_packaging_1788254190346.webp",
+    "singleCan": "/images/easy_open_can_ring_pull.webp",
+    "jarCaps": "/images/plastic_screw_caps_assorted.webp",
+    "honeyJar": "/images/pet_wide_lineup_photo_1788335042333.webp",
+    "spiceJar": "/images/can_easy_open_photo_1788334137128.webp"
+  },
+  "products": [
+    {
+      "id": "food-makhana-can",
+      "name": "Makhana PET Can (Flavored & Roasted Foxnuts)",
+      "category": "food",
+      "capacity": "500ml & 800ml",
+      "neckSize": "83mm / 100mm Wide Neck",
+      "closureType": "Aluminium Foil EOE / PP Snap Cap / Induction Seal",
+      "description": "Airtight crystal-clear cylindrical PET container engineered specifically for roasted, flavored makhanas (foxnuts). High moisture barrier preserves long-lasting crunch and seasoning aroma.",
+      "features": [
+        "High moisture barrier maintaining permanent crunch of roasted lotus seeds",
+        "360\u00b0 optical clarity showcasing peri-peri, cream & onion, or mint seasonings",
+        "Wide-mouth neck for high-speed automated filling and easy snacking",
+        "Hermetic aluminium EOE or peel-off foil seal for prolonged shelf life"
+      ],
+      "applications": [
+        "Roasted Makhana (Foxnuts)",
+        "Flavored Diet Snacks",
+        "Healthy Seeds & Roasted Snacks",
+        "Gourmet Trail Mixes"
+      ],
+      "image": "/images/hero_packaging_photo_1788334063083.webp",
+      "badge": "Snack Favorite",
+      "isPopular": true,
+      "status": "published",
+      "createdAt": "2026-08-01T10:31:18.603Z",
+      "updatedAt": "2026-09-04T04:54:02.826Z",
+      "images": [
+        "/images/hero_packaging_photo_1788334063083.webp"
+      ]
+    },
+    {
+      "id": "food-dryfruits-can",
+      "name": "Dry Fruits PET Can \u2014 500ml & 800ml",
+      "category": "food",
+      "capacity": "500ml & 800ml (Confirmed Sizes)",
+      "neckSize": "83mm / 100mm Neck",
+      "closureType": "Aluminium Easy Open End (EOE) / Soft-Peel Foil / PP Overcap",
+      "description": "Food-grade high-barrier PET can designed for premium almonds, cashews, pistachios, raisins, and walnuts. Available in confirmed 500ml and 800ml volume sizes (note: previous 500g option is discontinued).",
+      "features": [
+        "Confirmed standard sizes: 500ml and 800ml volume capacities",
+        "Nitrogen flushing compatible to prevent nut oil oxidation and rancidity",
+        "Airtight tamper-evident aluminium pull-tab or soft-peel membrane",
+        "Rigid, shatterproof construction protecting contents during transit"
+      ],
+      "applications": [
+        "Almonds, Cashews & Pistachios",
+        "Walnuts & Seed Mixes",
+        "Festive Gifting Packs",
+        "Organic Raisins & Dried Berries"
+      ],
+      "image": "/images/food_pet_jars_photo_1788334078314.webp",
+      "badge": "500ml & 800ml",
+      "isPopular": true,
+      "status": "published",
+      "createdAt": "2026-08-01T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/food_pet_jars_photo_1788334078314.webp"
+      ]
+    },
+    {
+      "id": "food-namkeen-can",
+      "name": "Namkeen PET Cans (Savory Snacks & Bhujia)",
+      "category": "food",
+      "capacity": "350ml, 500ml, 750ml & 1000ml",
+      "neckSize": "83mm / 100mm Neck",
+      "closureType": "Aluminium EOE Pull-Tab / Soft-Peel Foil / Resealable Plastic Lid",
+      "description": "Heavy-gauge transparent PET cans engineered for traditional Indian namkeens, bhujia, sev, banana chips, and savoury snack mixtures. High oil resistance preserves aroma and crispness.",
+      "features": [
+        "High oil and grease resistance preventing wall clouding or flavor absorption",
+        "Airtight hermetic sealing ensuring extended shelf life and crisp texture",
+        "Smooth cylindrical body suited for 360\u00b0 transparent or full-wrap shrink sleeves",
+        "Shatterproof structure preventing packaging damage across retail logistics"
+      ],
+      "applications": [
+        "Traditional Namkeen & Bhujia",
+        "Sev, Mixture & Chivda",
+        "Banana Chips & Farsan",
+        "Bakery Cookies & Mathri"
+      ],
+      "image": "/images/transpet_wide_hero_packaging_1788335025066.webp",
+      "badge": "High Volume FMCG",
+      "isPopular": true,
+      "status": "published",
+      "createdAt": "2026-08-01T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/transpet_wide_hero_packaging_1788335025066.webp"
+      ]
+    },
+    {
+      "id": "food-maharaja-jar",
+      "name": "Maharaja Jar (Royal Hex / Dome PET Jar)",
+      "category": "food",
+      "capacity": "100gm, 200gm, 250gm & 300gm",
+      "neckSize": "53mm / 63mm / 70mm Neck",
+      "closureType": "Gold / Silver Aluminium Lug Cap / Ribbed PP Lid / Induction Wad",
+      "description": "Opulent royal silhouette PET jar available in 100gm, 200gm, 250gm, and 300gm sizes. Features ornate dome shoulders and faceted profile for pure desi ghee, organic honey, saffron, and luxury dry fruit gifting.",
+      "features": [
+        "Available sizes: 100gm, 200gm, 250gm, and 300gm",
+        "Regal Maharaja dome geometry giving prestigious shelf positioning",
+        "Food-safe virgin polymer with glass-like optical clarity and zero chemical leaching",
+        "Compatible with leakproof induction heat seals and metallic finish closures"
+      ],
+      "applications": [
+        "Pure Desi Ghee",
+        "Raw Forest Honey",
+        "Saffron & Royal Dry Fruit Gifting",
+        "Ayurvedic Chyawanprash & Herbal Formulations"
+      ],
+      "image": "/images/pet_wide_lineup_photo_1788335042333.webp",
+      "badge": "Sizes: 100g - 300g",
+      "isPopular": true,
+      "status": "published",
+      "createdAt": "2026-08-01T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/pet_wide_lineup_photo_1788335042333.webp"
+      ]
+    },
+    {
+      "id": "food-can-1000ml",
+      "name": "Food-Grade Round PET Can Jar \u2014 1000ml (1 Kg)",
+      "category": "food",
+      "capacity": "1000 ml / 1 Kg",
+      "neckSize": "100mm / 120mm Neck",
+      "closureType": "Airtight Aluminium Foil EOE / PP Screw Cap / Induction Wad",
+      "description": "High-clarity, heavy-duty cylindrical food jar engineered for maximum shelf life, tamper resistance, and crystal clear product visibility.",
+      "features": [
+        "100% virgin food-grade odorless PET resin",
+        "Wide mouth design for effortless filling and dispensing",
+        "Compatible with aluminium pull-tab peel-off membranes or threaded caps",
+        "High impact resistance and shatterproof construction"
+      ],
+      "applications": [
+        "Dry fruits & roasted nuts",
+        "Bakery cookies & rusks",
+        "Confectionery & candies",
+        "Grains, snacks & spices"
+      ],
+      "image": "/images/food_pet_jars_1788254139682.webp",
+      "badge": "High Demand",
+      "isPopular": true,
+      "status": "published",
+      "createdAt": "2026-07-23T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/food_pet_jars_1788254139682.webp"
+      ]
+    },
+    {
+      "id": "food-can-750ml",
+      "name": "Food-Grade PET Can Jar \u2014 750ml (750 Gms)",
+      "category": "food",
+      "capacity": "750 ml / 750 Gms",
+      "neckSize": "83mm / 100mm Neck",
+      "closureType": "Induction Seal / Easy-Open Peel Top / PP Lid",
+      "description": "Optimal mid-size packaging for premium snacks, confectionery, and grocery staples with superior moisture-barrier protection.",
+      "features": [
+        "Glass-like transparency to highlight product texture",
+        "Airtight hermetic sealing for extended freshness",
+        "Uniform wall thickness for structural rigidity",
+        "100% recyclable circular packaging profile"
+      ],
+      "applications": [
+        "Namkeen & savory snacks",
+        "Protein powders & health mixes",
+        "Artisanal sweets",
+        "Herbal teas & powders"
+      ],
+      "image": "/images/hero_pet_cans_1788254122469.webp",
+      "status": "published",
+      "createdAt": "2026-07-28T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/hero_pet_cans_1788254122469.webp"
+      ]
+    },
+    {
+      "id": "food-can-500ml-hex",
+      "name": "Hexagonal Faceted PET Food Jar \u2014 500ml",
+      "category": "food",
+      "capacity": "500 ml / 500 Gms",
+      "neckSize": "63mm / 70mm Neck",
+      "closureType": "Lug Cap / PP Ribbed Screw Lid",
+      "description": "Faceted geometric design offering luxury shelf presence and anti-roll stability for artisanal spreads, honey, and confectionery.",
+      "features": [
+        "Hexagonal faceted exterior reflects light for premium shelf positioning",
+        "Thick base molding for high perceived value",
+        "Compatible with tamper-evident shrink sleeves and induction wads",
+        "Excellent gas and moisture barrier properties"
+      ],
+      "applications": [
+        "Organic wild honey & syrups",
+        "Chyawanprash & herbal pastes",
+        "Gourmet nut butters",
+        "Artisan candy & chocolate gems"
+      ],
+      "image": "/images/custom_packaging_1788254190346.webp",
+      "badge": "Specialty Shape",
+      "isPopular": true,
+      "status": "published",
+      "createdAt": "2026-08-02T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/custom_packaging_1788254190346.webp"
+      ]
+    },
+    {
+      "id": "food-can-500ml-spice",
+      "name": "Dual-Sifter Seasoning & Spice PET Can \u2014 500ml",
+      "category": "food",
+      "capacity": "500 ml / 250-400 Gms Spices",
+      "neckSize": "53mm / 63mm Neck",
+      "closureType": "Dual-Flap Sprinkle & Spoon Cap",
+      "description": "Commercial spice jar with two-way dispensing cap (spoon opening + sprinkle holes) and clear PET wall for spice visibility.",
+      "features": [
+        "Dual-action closure: sprinkle side for seasoning + wide pour side for spoons",
+        "Hermetic inner induction liner preserving volatile spice aromas",
+        "Ergonomic cylindrical grip profile for commercial kitchens and dining tables",
+        "Odorless PET resin that prevents flavor cross-contamination"
+      ],
+      "applications": [
+        "Garam masala & ground spices",
+        "Peri peri & culinary seasoning blends",
+        "Pink Himalayan rock salt & peppercorns",
+        "Baking soda & sprinkles"
+      ],
+      "image": "/images/can_easy_open_photo_1788334137128.webp",
+      "badge": "Kitchen Essential",
+      "status": "published",
+      "createdAt": "2026-08-10T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/can_easy_open_photo_1788334137128.webp"
+      ]
+    },
+    {
+      "id": "food-can-2000ml-jumbo",
+      "name": "Heavy-Duty Bulk Pantry PET Jar \u2014 2000ml (2 Litres)",
+      "category": "food",
+      "capacity": "2000 ml / 2 Kg",
+      "neckSize": "120mm Wide Neck",
+      "closureType": "Heavy Handle Cap / Airtight Screw Cap",
+      "description": "High-volume container engineered for restaurant kitchens, bulk dry foods, and wholesale bakery ingredients with built-in ergonomic grip.",
+      "features": [
+        "Reinforced base and ribbed wall integrity",
+        "Ergonomic carrying handle cap compatible",
+        "Massive capacity with zero risk of glass breakage",
+        "Food-safe certified for oils, pickles, flours, and bulk confectionery"
+      ],
+      "applications": [
+        "Bulk restaurant pantry goods",
+        "Wholesale candy packaging",
+        "Pickles & pastes",
+        "Protein & nutritional supplements"
+      ],
+      "image": "/images/custom_packaging_1788254190346.webp",
+      "status": "published",
+      "createdAt": "2026-08-12T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/custom_packaging_1788254190346.webp"
+      ]
+    },
+    {
+      "id": "bev-can-250ml-pocket",
+      "name": "Pocket PET Beverage Can \u2014 250ml (Plain Flat Base)",
+      "category": "beverage",
+      "capacity": "250 ml (Slim Pocket)",
+      "neckSize": "200 / 202 EOE",
+      "closureType": "Aluminium Pop-Tab Pull Ring (200/202 EOE)",
+      "description": "Single-serve compact PET can with flat bottom designed for premium concentrates, functional health shots, and mini RTD portions. Built for both Carbonated and Non-carbonated beverages.",
+      "features": [
+        "Plain flat bottom profile (genuine can aesthetics, no bottle feet)",
+        "Ultra-lightweight design for maximum logistical efficiency",
+        "Airtight hermetic aluminium seal",
+        "Compact footprint ideal for airline catering, mini-bars, and retail displays"
+      ],
+      "applications": [
+        "Carbonated Beverages",
+        "Non-carbonated Beverages",
+        "Cold brew espresso shots",
+        "Functional herbal shots & tonics",
+        "Mini mocktails & fruit juices"
+      ],
+      "image": "/images/flat_beverage_cans_1788256035569.webp",
+      "status": "published",
+      "createdAt": "2026-07-31T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/flat_beverage_cans_1788256035569.webp"
+      ]
+    },
+    {
+      "id": "bev-can-330ml-sleek",
+      "name": "Sleek Transparent PET Beverage Can \u2014 330ml (Plain Flat Base)",
+      "category": "beverage",
+      "capacity": "330 ml (Sleek Profile)",
+      "neckSize": "Standard 202 CDL / 200 EOE Neck",
+      "closureType": "Aluminium Pop-Tab Pull Ring (202 EOE)",
+      "description": "Modern, slender transparent can with authentic flat can base (no bottle bottom). Engineered for internal pressure tolerance and crystal liquid visibility across Carbonated and Non-carbonated beverages.",
+      "features": [
+        "Authentic plain flat base (true can profile, not a bottle-style petaloid base)",
+        "Engineered base structure for pressure & carbonation tolerance",
+        "Compatible with standard high-speed can seaming machines",
+        "Clear PET body highlights drink color and bubbling effervescence"
+      ],
+      "applications": [
+        "Carbonated Beverages",
+        "Non-carbonated Beverages",
+        "Craft sodas & sparkling water",
+        "Cold brew coffee & iced matcha",
+        "Kombucha & functional elixirs"
+      ],
+      "image": "/images/beverage_cans_photo_1788334091442.webp",
+      "badge": "Flat Base Can",
+      "isPopular": true,
+      "status": "published",
+      "createdAt": "2026-08-04T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/beverage_cans_photo_1788334091442.webp"
+      ]
+    },
+    {
+      "id": "bev-can-350ml-standard",
+      "name": "Standard PET Fizzy Drink Can \u2014 350ml (Plain Flat Base)",
+      "category": "beverage",
+      "capacity": "350 ml (Standard Can Diameter)",
+      "neckSize": "202 Aluminium EOE",
+      "closureType": "Aluminium Easy Open End (202 EOE)",
+      "description": "Classic format PET beverage can with plain flat bottom for carbonated soft drinks, juices, and cold tea brews requiring hermetic carbonation barrier. Formulated for Carbonated and Non-carbonated beverages.",
+      "features": [
+        "Flat standing bottom engineered for authentic beverage can look & feel (no bottle grooves)",
+        "Food-grade virgin resin with high gas retention barrier",
+        "100% leakproof seamed aluminium seal",
+        "Smooth outer surface suited for shrink sleeve or transparent labeling"
+      ],
+      "applications": [
+        "Carbonated Beverages",
+        "Non-carbonated Beverages",
+        "Carbonated soft drinks & colas",
+        "Fresh fruit juices & pulpy beverages",
+        "Sparkling tonic water"
+      ],
+      "image": "/images/beverage_pet_cans_1788254152011.webp",
+      "badge": "B2B Essential",
+      "isPopular": true,
+      "status": "published",
+      "createdAt": "2026-08-07T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/beverage_pet_cans_1788254152011.webp"
+      ]
+    },
+    {
+      "id": "bev-can-500ml-king",
+      "name": "King Size PET Beverage Can \u2014 500ml (Plain Flat Base)",
+      "category": "beverage",
+      "capacity": "500 ml (King Size)",
+      "neckSize": "202 / 206 Neck Finish",
+      "closureType": "Aluminium Pop-Tab Pull Ring (202/206 EOE)",
+      "description": "Large-volume transparent beverage container engineered with a true flat/plain can bottom (no bottle-style petaloid base). Perfect for Carbonated and Non-carbonated beverages, bubble tea, sports drinks, and cold refreshments.",
+      "features": [
+        "Flat/Plain Base Engineering: Specially molded with flat standing bottom like aluminium cans, NOT bottle feet",
+        "High tensile strength and structural pressure resistance for fizzy & nitrogen-dosed drinks",
+        "Clear visibility for layered drinks, boba pearls, pulp, and fruit pieces",
+        "Shatterproof durability for takeaway, cloud kitchens, delivery, and retail shelves",
+        "Full recyclability within standard PET recycling streams"
+      ],
+      "applications": [
+        "Carbonated Beverages",
+        "Non-carbonated Beverages",
+        "Bubble tea & fruit teas",
+        "Isotonic sports beverages",
+        "Large RTD iced coffees"
+      ],
+      "image": "/images/king_flat_can_photo_1788334106415.webp",
+      "badge": "Plain Flat Base",
+      "isPopular": true,
+      "status": "published",
+      "createdAt": "2026-08-02T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/king_flat_can_photo_1788334106415.webp"
+      ]
+    },
+    {
+      "id": "bev-can-650ml-tall",
+      "name": "Tall Volume PET Beverage Can \u2014 650ml (Plain Flat Base)",
+      "category": "beverage",
+      "capacity": "650 ml (Jumbo)",
+      "neckSize": "202 EOE Neck",
+      "closureType": "Aluminium Easy Open End (202 EOE)",
+      "description": "Extended capacity PET can engineered with flat plain base for high-volume liquid packaging, cafe takeaway, and jumbo iced drinks across Carbonated and Non-carbonated beverages.",
+      "features": [
+        "Plain flat standing base for exceptional shelf balance and genuine can appearance (no bottle petaloid feet)",
+        "Heavy-wall PET formulation resisting transport compression",
+        "Seams seamlessly with standard 202 tooling",
+        "Maximizes on-shelf volume presence for value-tier offerings"
+      ],
+      "applications": [
+        "Carbonated Beverages",
+        "Non-carbonated Beverages",
+        "Jumbo iced teas & boba",
+        "Craft lemonades & cold refreshments",
+        "Party pack mocktails"
+      ],
+      "image": "/images/king_flat_can_1788256066965.webp",
+      "status": "published",
+      "createdAt": "2026-08-14T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/king_flat_can_1788256066965.webp"
+      ]
+    },
+    {
+      "id": "packaging-seaming-machine",
+      "name": "Semi-Automatic Tabletop PET Can Seaming Machine",
+      "category": "machinery",
+      "capacity": "Fits all 200/202/206/209 PET Cans",
+      "neckSize": "Adjustable height (50mm to 220mm)",
+      "closureType": "Dual Roller Seaming Head (0.5 HP Motor) for Aluminium EOE",
+      "description": "Commercial-grade tabletop can seamer supplied to cafes, cloud kitchens, and small-batch FMCG brands to hermetically seam aluminium EOE lids onto PET beverage and food cans in 3 seconds.",
+      "features": [
+        "Single-button fast operation: seals 1 can every 3 seconds (up to 1,200 cans/hr)",
+        "Precision hardened steel seaming rollers ensuring leakproof, pressure-tight seam",
+        "Digital counter and emergency safety stop",
+        "Full setup support, calibration, and spare parts available"
+      ],
+      "applications": [
+        "Cafes & bubble tea outlets",
+        "Craft beverage bottlers",
+        "Cloud kitchens & juice bars",
+        "Pilot packaging test batches"
+      ],
+      "image": "/images/packaging_seaming_machine.webp",
+      "badge": "Equipment & Tooling",
+      "isPopular": true,
+      "status": "published",
+      "createdAt": "2026-08-17T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/packaging_seaming_machine.webp"
+      ]
+    },
+    {
+      "id": "machinery-auto-rotary-seamer",
+      "name": "High-Speed Fully Automatic Rotary PET Can Seaming Line",
+      "category": "machinery",
+      "capacity": "1,800 \u2013 3,600 Cans/Hour",
+      "neckSize": "Continuous In-Line Conveyor Integration",
+      "closureType": "Multi-Station Rotary Seaming Turret (Aluminium EOE)",
+      "description": "Industrial-grade continuous automated seamer for commercial FMCG packaging facilities and high-volume beverage bottling lines.",
+      "features": [
+        "PLC touch screen control panel with speed synchronization",
+        "Automated lid dispensing and nitrogen flushing integration option",
+        "Heavy-duty stainless steel SUS304 construction",
+        "Complete turnkey commissioning by Uunique engineering team"
+      ],
+      "applications": [
+        "Large FMCG bottling plants",
+        "Commercial juice factories",
+        "Contract packaging units",
+        "High-volume breweries"
+      ],
+      "image": "/images/machinery_auto_rotary_seamer.webp",
+      "badge": "Automated Line",
+      "status": "published",
+      "createdAt": "2026-08-19T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/machinery_auto_rotary_seamer.webp"
+      ]
+    },
+    {
+      "id": "caps-aluminium-eoe",
+      "name": "Aluminium Easy Open Ends (EOE 200 / 202 / 206 / 209)",
+      "category": "caps",
+      "capacity": "Standard 200, 202, 206 & 209 Diameters",
+      "neckSize": "Fits Standard Beverage & Food Cans",
+      "closureType": "Pull-Tab / Stay-on Tab / Ring Pull Aluminium Lid",
+      "description": "Food-safe protective lacquered aluminium easy open ends engineered for hermetic seaming on PET beverage cans and food jars. Strictly aluminium alloy construction.",
+      "features": [
+        "Food-grade internal protective lacquer preventing corrosion and food contact reaction",
+        "Available in Full-Aperture (for snacks/dry fruits) and Pop-Tab (for carbonated drinks)",
+        "Pressure rated up to 90 PSI for carbonated beverage holding",
+        "Direct bulk manufacturing supply with strict quality seaming testing"
+      ],
+      "applications": [
+        "Beverage can sealing",
+        "Food jar tamper-evident packaging",
+        "Snack cans",
+        "Coffee & tea packaging"
+      ],
+      "image": "/images/easy_open_can_ring_pull.webp",
+      "badge": "Aluminium Closures",
+      "isPopular": true,
+      "status": "published",
+      "createdAt": "2026-08-20T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/easy_open_can_ring_pull.webp"
+      ]
+    },
+    {
+      "id": "plain-caps-preforms",
+      "name": "Plain Jar Caps, EOE Lids & Preforms Bulk Supply",
+      "category": "caps",
+      "capacity": "Bulk cartons / Pallets (MOQ: 5,000 units)",
+      "neckSize": "38mm, 53mm, 63mm, 83mm, 100mm, 120mm & 202 EOE",
+      "closureType": "Aluminium EOE, Peel-Off Foil, PP Handle Caps & Jar Lids",
+      "description": "High-precision injection molded closures and virgin PET preforms available in standard and custom color masterbatches.",
+      "features": [
+        "Universal compatibility with standard blow molding threads and can seamers",
+        "Food-grade food contact certification (US FDA 21 CFR / EU 10/2011 compliant)",
+        "Custom colors, induction wads, and embossed logo caps available upon request",
+        "Consistent grammage and gate quality for zero leakages"
+      ],
+      "applications": [
+        "Bottling plants & co-packers",
+        "Can seamers & capping lines",
+        "Contract manufacturers",
+        "In-house brand custom molders"
+      ],
+      "image": "/images/caps_preforms_photo_1788334122561.webp",
+      "badge": "Components",
+      "status": "published",
+      "createdAt": "2026-08-20T10:31:18.603Z",
+      "updatedAt": "2026-09-03T10:31:18.603Z",
+      "images": [
+        "/images/caps_preforms_photo_1788334122561.webp"
+      ]
+    },
+    {
+      "id": "food-confectionery-jar",
+      "name": "Wide-Mouth Confectionery & Candy PET Jar \u2014 500ml / 1000ml / 1500ml",
+      "category": "food",
+      "capacity": "500ml, 1000ml & 1500ml",
+      "neckSize": "83mm / 100mm Wide Mouth",
+      "closureType": "High-Grade PP Threaded Screw Lid / Flip-Top Handle Cap",
+      "description": "Crystal-clear food-grade round PET container designed specifically for bulk candies, lollipops, toffees, wafers, and snack confectionery with maximum impulse shelf appeal.",
+      "features": [
+        "Ultra-clear cylindrical wall displaying colorful candy layers and treats",
+        "Food-safe certified virgin PET with odorless, taint-free contact",
+        "Ergonomic ribbed plastic screw cap with hermetic induction or foam wad",
+        "Lightweight and drop-resistant, eliminating transport glass breakage"
+      ],
+      "applications": [
+        "Hard boiled candies & toffees",
+        "Chocolates & gummy sweets",
+        "Bakery cookies & wafers",
+        "Bulk festive confection gifts"
+      ],
+      "image": "/images/confectionery_candy_pet_jar.webp",
+      "images": [
+        "/images/confectionery_candy_pet_jar.webp",
+        "/images/transpet_wide_hero_packaging_1788335025066.webp"
+      ],
+      "badge": "Candy & Sweets",
+      "isPopular": true,
+      "status": "draft",
+      "createdAt": "2026-09-01T10:31:18.603Z",
+      "updatedAt": "2026-09-03T12:15:57.893Z"
+    },
+    {
+      "id": "bev-can-pull-tab-special",
+      "name": "High-Pressure Pop-Tab PET Beverage Can \u2014 330ml / 500ml (Plain Flat Base)",
+      "category": "beverage",
+      "capacity": "330 ml & 500 ml",
+      "neckSize": "202 CDL / EOE Aluminium Lid",
+      "closureType": "Aluminium Pop-Tab Ring Pull with Hermetic Double Seam",
+      "description": "Ultra-clear plain flat-base PET beverage can engineered for carbonated sodas, craft tonics, cold-brew, and kombucha. Withstands internal gas pressures while showcasing vivid carbonation bubbles.",
+      "features": [
+        "Flat bottom profile eliminating bottle petaloid feet for genuine can aesthetics",
+        "Pressure rated up to 90 PSI for carbonated beverage holding",
+        "High gas retention barrier keeping drinks effervescent and crisp",
+        "Standard 202 aluminium lid seaming compatibility"
+      ],
+      "applications": [
+        "Sparkling sodas & tonic waters",
+        "Cold-brew coffee & matcha",
+        "Craft kombucha & functional tonics",
+        "Fruit spritzers"
+      ],
+      "image": "/images/pull_tab_beverage_can.webp",
+      "images": [
+        "/images/pull_tab_beverage_can.webp",
+        "/images/beverage_cans_photo_1788334091442.webp"
+      ],
+      "badge": "Carbonation Ready",
+      "isPopular": true,
+      "status": "draft",
+      "createdAt": "2026-09-01T10:31:18.603Z",
+      "updatedAt": "2026-09-03T12:15:56.202Z"
+    },
+    {
+      "id": "caps-resealable-overcaps",
+      "name": "Resealable Snap-On Plastic Dust Overcaps for PET Cans",
+      "category": "caps",
+      "capacity": "Fits 200, 202, 206 & 209 Can Diameters",
+      "neckSize": "Standard PET Can Mouths",
+      "closureType": "Snap-On PP Reusable Plastic Dust Cover",
+      "description": "Crystal-clear and colored food-grade polypropylene snap-on caps designed to fit snugly over aluminium easy-open lids for hygienic re-closing after the can has been opened.",
+      "features": [
+        "Snug friction fit over the aluminium double seam",
+        "Allows consumers to re-seal food cans (makhanas, dry fruits, snacks)",
+        "Protects the aluminium pull tab from dust and contamination during shelf display",
+        "Available in crystal clear, translucent, and vibrant brand colors"
+      ],
+      "applications": [
+        "Makhana PET cans",
+        "Dry fruit cans",
+        "Snack & cookie cans",
+        "Confectionery packaging"
+      ],
+      "image": "/images/pet_jar_caps_1788254220531.webp",
+      "images": [
+        "/images/pet_jar_caps_1788254220531.webp",
+        "/images/easy_open_can_ring_pull.webp"
+      ],
+      "badge": "Resealable",
+      "isPopular": true,
+      "status": "published",
+      "createdAt": "2026-09-01T10:31:18.603Z",
+      "updatedAt": "2026-09-03T12:00:00.000Z"
+    },
+    {
+      "id": "food-jar-1000ml",
+      "name": "Premium Round PET Food Jar \u2014 1000ml (1 Litre)",
+      "category": "food",
+      "capacity": "1000 ml (1 Litre)",
+      "neckSize": "83mm / 100mm Wide Mouth",
+      "closureType": "Threaded PP Screw Cap / Aluminium EOE Lid",
+      "description": "High-volume 1-litre clear PET jar engineered for bulk snacks, roasted dry fruits, protein powders, and grocery staples.",
+      "features": [
+        "Crystal clear glass-like walls with UV protective grade available",
+        "Compatible with both induction wads and aluminium easy-open ends",
+        "Strong standing base with high impact drop resistance",
+        "100% recyclable food-safe virgin PET resin"
+      ],
+      "applications": [
+        "Roasted cashew & almond packs",
+        "Protein powders & health mixes",
+        "Cookies & bakery rusks",
+        "Bulk namkeen & snacks"
+      ],
+      "image": "/images/food_pet_jars_1788254139682.webp",
+      "images": [
+        "/images/food_pet_jars_1788254139682.webp",
+        "/images/food_pet_jars_photo_1788334078314.webp"
+      ],
+      "badge": "Best Seller",
+      "isPopular": true,
+      "status": "published",
+      "createdAt": "2026-09-01T10:31:18.603Z",
+      "updatedAt": "2026-09-03T12:00:00.000Z"
+    },
+    {
+      "id": "food-jar-750ml",
+      "name": "Mid-Size Cylindrical PET Food Jar \u2014 750ml",
+      "category": "food",
+      "capacity": "750 ml",
+      "neckSize": "83mm Wide Mouth",
+      "closureType": "Threaded PP Screw Cap / Safe-Edge Foil",
+      "description": "Popular shelf-ready packaging jar designed for supermarket retail confectionery, cookies, dry snacks, and festive gift packaging.",
+      "features": [
+        "Optimal retail shelf height maximizing product visibility",
+        "Smooth label panel area for 360-degree wrap-around branding",
+        "Airtight seal preserving crispy snacks and roasted dry fruits",
+        "Lightweight, shatterproof alternative to traditional glass"
+      ],
+      "applications": [
+        "Wafer rolls & cookies",
+        "Flavoured makhana & dry snacks",
+        "Candies & toffees",
+        "Herbal teas & powders"
+      ],
+      "image": "/images/hero_pet_cans_1788254122469.webp",
+      "images": [
+        "/images/hero_pet_cans_1788254122469.webp",
+        "/images/food_pet_jars_photo_1788334078314.webp"
+      ],
+      "badge": "Retail Favorite",
+      "isPopular": false,
+      "status": "published",
+      "createdAt": "2026-09-01T10:31:18.603Z",
+      "updatedAt": "2026-09-03T12:00:00.000Z"
+    },
+    {
+      "id": "food-jar-hexagonal",
+      "name": "Hexagonal Multi-Faceted PET Jar \u2014 350ml / 500ml",
+      "category:": "food",
+      "category": "food",
+      "capacity": "350ml & 500ml",
+      "neckSize": "63mm / 70mm Neck",
+      "closureType": "Gold / Black Metal Lug Cap or PP Ribbed Screw Cap",
+      "description": "Distinctive 6-sided faceted PET jar designed for artisan honeys, gourmet jams, saffron, spices, and premium festive gift hampers.",
+      "features": [
+        "Geometric hexagonal walls reflect ambient retail lighting",
+        "Stackable design for boutique shelf displays",
+        "Available with luxury metallic lug caps or plastic caps",
+        "BPA-free, food-grade virgin PET"
+      ],
+      "applications": [
+        "Organic honey & beeswax spreads",
+        "Artisan fruit preserves & jams",
+        "Gourmet spices & saffron",
+        "Premium dry fruit gift sets"
+      ],
+      "image": "/images/custom_packaging_1788254190346.webp",
+      "images": [
+        "/images/custom_packaging_1788254190346.webp",
+        "/images/pet_wide_lineup_photo_1788335042333.webp"
+      ],
+      "badge": "Artisan Pack",
+      "isPopular": false,
+      "status": "published",
+      "createdAt": "2026-09-01T10:31:18.603Z",
+      "updatedAt": "2026-09-03T12:00:00.000Z"
+    },
+    {
+      "id": "food-jar-square",
+      "name:": "Square Profile Space-Saving PET Jar \u2014 500ml / 750ml / 1000ml",
+      "name": "Square Profile Space-Saving PET Jar \u2014 500ml / 750ml / 1000ml",
+      "category": "food",
+      "capacity": "500ml, 750ml & 1000ml",
+      "neckSize": "83mm Wide Mouth",
+      "closureType": "Threaded PP Screw Cap with Induction Wad",
+      "description": "Square footprint PET jar that maximizes storage efficiency on shipping pallets, warehouse shelves, and retail gondolas by saving up to 25% space.",
+      "features": [
+        "Square profile eliminates dead space in outer cartons and shipping pallets",
+        "Dual flat label panels for clear front & back ingredient branding",
+        "Heavy wall grammage preventing collapse during transport",
+        "Airtight silicone or EPE liner compatibility"
+      ],
+      "applications": [
+        "Dry fruits & roasted makhanas",
+        "Spices & baking mixes",
+        "Cookies & biscuits",
+        "Protein powders & seeds"
+      ],
+      "image": "/images/food_pet_jars_1788254139682.webp",
+      "images": [
+        "/images/food_pet_jars_1788254139682.webp",
+        "/images/hero_pet_cans_1788254122469.webp"
+      ],
+      "badge": "Space Saver",
+      "isPopular": false,
+      "status": "published",
+      "createdAt": "2026-09-01T10:31:18.603Z",
+      "updatedAt": "2026-09-03T12:15:47.081Z"
+    },
+    {
+      "id": "custom-tooling-molds",
+      "name": "Custom PET Jar & Can Mold Tooling Engineering",
+      "category": "machinery",
+      "capacity": "Custom Volumes (50ml to 5000ml)",
+      "neckSize": "Tailored Neck Finishes",
+      "closureType": "Proprietary Cap & Can Systems",
+      "description": "End-to-end precision mold engineering and prototyping service for custom-shaped PET jars, branded beverage cans, and specialized closure tooling.",
+      "features": [
+        "In-house CAD/CAM tooling and rapid 3D sample prototyping",
+        "High-grade aircraft aluminium and hardened steel blow molds",
+        "Custom brand logo embossing directly onto PET jar bodies or bases",
+        "Turnkey mold lifecycle maintenance and production integration"
+      ],
+      "applications": [
+        "Exclusive brand shapes & proprietary packaging",
+        "Private label FMCG brands",
+        "Patent protected container geometries",
+        "Specialty closure systems"
+      ],
+      "image": "/images/custom_packaging_1788254190346.webp",
+      "images": [
+        "/images/custom_packaging_1788254190346.webp",
+        "/images/factory_facility_1788254175330.webp"
+      ],
+      "badge": "Custom Engineering",
+      "isPopular": false,
+      "status": "draft",
+      "createdAt": "2026-09-01T10:31:18.603Z",
+      "updatedAt": "2026-09-03T12:15:39.793Z"
+    }
+  ],
+  "requests": [
+    {
+      "id": "req-1788419338640-962",
+      "type": "quote",
+      "name": "Async Persistence Test",
+      "company": "Test Corp",
+      "email": "test.async@petcans.in",
+      "phone": "",
+      "productInterest": "",
+      "estimatedVolume": "",
+      "message": "Testing async fs write persistence",
+      "status": "new",
+      "reportedToEmail": false,
+      "createdAt": "2026-09-03T07:08:58.640Z",
+      "updatedAt": "2026-09-03T07:08:58.640Z"
+    },
+    {
+      "id": "req-1001",
+      "type": "quote",
+      "name": "Rajesh Sharma",
+      "company": "Himalayan Cold Brew Co.",
+      "email": "rajesh@himalayanbrew.in",
+      "phone": "+91 98112 34567",
+      "productInterest": "330ml Sleek Beverage Can (Plain Flat Base)",
+      "estimatedVolume": "50,000 units/month",
+      "message": "We are launching a premium sparkling cold brew line and need 330ml plain flat-base PET cans with 202 aluminum EOE lids. Please send tier pricing and MOQ.",
+      "status": "new",
+      "reportedToEmail": false,
+      "createdAt": "2026-09-01T09:46:18.603Z",
+      "updatedAt": "2026-09-01T09:46:18.603Z"
+    },
+    {
+      "id": "req-1002",
+      "type": "sample",
+      "name": "Pooja Agarwal",
+      "company": "NutriBites Confectionery",
+      "email": "pooja.agarwal@nutribites.com",
+      "phone": "+91 99887 65432",
+      "productInterest": "Food-Grade Round PET Can Jar \u2014 1000ml",
+      "estimatedVolume": "20,000 units/quarter",
+      "message": "Requesting sample kit for 1000ml and 750ml round food jars with induction sealing lids for packaging roasted dry fruits.",
+      "status": "contacted",
+      "internalNotes": "Dispatched physical sample kit from Rama Road plant on 2026-09-01 via express courier.",
+      "reportedToEmail": true,
+      "reportedAt": "2026-09-01T05:31:18.603Z",
+      "createdAt": "2026-09-01T04:31:18.603Z",
+      "updatedAt": "2026-09-01T10:31:18.603Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-1",
+      "title": "CNC Machinist & Precision Mold Toolmaker",
+      "category": "Production & Plant",
+      "location": "Rama Road Facility, New Delhi",
+      "type": "Full-Time | On-Site",
+      "description": "Lead precision mold machining and tooling modifications for custom PET preforms and can neck geometries.",
+      "responsibilities": [
+        "Operate and program CNC milling and lathe machinery for mold maintenance",
+        "Perform optical neck finish tolerances and dimension audits",
+        "Collaborate with tool design engineers on new cavity trials"
+      ],
+      "qualifications": [
+        "ITI or Diploma in Tool & Die Making / Mechanical Engineering",
+        "3+ years hands-on experience in plastic injection or blow mold tooling",
+        "Proficiency in reading engineering CAD drawings"
+      ],
+      "status": "published",
+      "createdAt": "2026-09-01T10:31:18.603Z"
+    },
+    {
+      "id": "job-2",
+      "title": "Automated Blow Molding Machine Operator",
+      "category": "Production & Plant",
+      "location": "Rama Road HQ, New Delhi",
+      "type": "Full-Time | Shift-Based",
+      "description": "Operate high-speed automated PET stretch blow molding lines ensuring consistent wall distribution and zero optical defects.",
+      "responsibilities": [
+        "Monitor heating zone temperatures, blow pressures, and preform feeding",
+        "Conduct hourly weight and wall thickness quality checks",
+        "Perform routine line maintenance and changeover assistance"
+      ],
+      "qualifications": [
+        "Technical diploma or certified machinery training",
+        "2+ years in plastic packaging or bottle manufacturing",
+        "Strong safety and cleanroom protocol adherence"
+      ],
+      "status": "published",
+      "createdAt": "2026-09-01T10:31:18.603Z"
+    }
+  ],
+  "jobApplications": [
+    {
+      "id": "app-1",
+      "jobId": "job-1",
+      "jobTitle": "CNC Machinist & Precision Mold Toolmaker",
+      "candidateName": "Amit Verma",
+      "email": "amit.verma89@gmail.com",
+      "phone": "+91 98765 43210",
+      "experienceYears": "4 years",
+      "currentLocation": "New Delhi (West)",
+      "resumeNote": "Experienced with Fanuc and Siemens CNC controllers, 4 years in plastic preform mold maintenance at Mayapuri and Rama Road.",
+      "status": "under_review",
+      "createdAt": "2026-08-30T10:31:18.603Z",
+      "notes": "Strong practical tooling experience. Scheduled for plant interview."
+    }
+  ],
+  "reportBatches": [],
+  "auditLogs": [
+    {
+      "id": "aud-1788525753416-294",
+      "timestamp": "2026-09-04T12:42:33.416Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "UPLOAD_IMAGE",
+      "target": "img_1788525753404_ae8sp.png",
+      "details": "Uploaded file (7193 KB)"
+    },
+    {
+      "id": "aud-1788525716264-955",
+      "timestamp": "2026-09-04T12:41:56.264Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "LOGIN",
+      "target": "Admin Portal",
+      "details": "Successful login from 127.0.0.1"
+    },
+    {
+      "id": "aud-1788497772725-144",
+      "timestamp": "2026-09-04T04:56:12.725Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "DELETE_PRODUCT",
+      "target": "Test Verification Jar 350ml",
+      "details": "Deleted product permanently"
+    },
+    {
+      "id": "aud-1788497772722-899",
+      "timestamp": "2026-09-04T04:56:12.723Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "UPDATE_PRODUCT",
+      "target": "Test Verification Jar 350ml",
+      "details": "Updated specs/status"
+    },
+    {
+      "id": "aud-1788497772720-51",
+      "timestamp": "2026-09-04T04:56:12.720Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "UPDATE_PRODUCT",
+      "target": "Test Verification Jar 350ml",
+      "details": "Updated specs/status"
+    },
+    {
+      "id": "aud-1788497772717-70",
+      "timestamp": "2026-09-04T04:56:12.717Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "CREATE_PRODUCT",
+      "target": "Test Verification Jar 350ml",
+      "details": "Added new product to catalogue (food)"
+    },
+    {
+      "id": "aud-1788497772710-648",
+      "timestamp": "2026-09-04T04:56:12.710Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "LOGIN",
+      "target": "Admin Portal",
+      "details": "Successful login from 127.0.0.1"
+    },
+    {
+      "id": "aud-1788497642826-18",
+      "timestamp": "2026-09-04T04:54:02.826Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "UPDATE_PRODUCT",
+      "target": "Makhana PET Can (Flavored & Roasted Foxnuts)",
+      "details": "Updated specs/status"
+    },
+    {
+      "id": "aud-1788497642824-925",
+      "timestamp": "2026-09-04T04:54:02.824Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "UPDATE_PRODUCT",
+      "target": "Makhana PET Can (Flavored & Roasted Foxnuts)",
+      "details": "Updated specs/status"
+    },
+    {
+      "id": "aud-1788497642817-834",
+      "timestamp": "2026-09-04T04:54:02.817Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "LOGIN",
+      "target": "Admin Portal",
+      "details": "Successful login from 127.0.0.1"
+    },
+    {
+      "id": "aud-1788497633502-516",
+      "timestamp": "2026-09-04T04:53:53.502Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "UPLOAD_IMAGE",
+      "target": "img_1788497633501_srlgn.gif",
+      "details": "Uploaded file (0 KB)"
+    },
+    {
+      "id": "aud-1788497633498-856",
+      "timestamp": "2026-09-04T04:53:53.498Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "LOGIN",
+      "target": "Admin Portal",
+      "details": "Successful login from 127.0.0.1"
+    },
+    {
+      "id": "aud-1788497627086-488",
+      "timestamp": "2026-09-04T04:53:47.086Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "LOGIN",
+      "target": "Admin Portal",
+      "details": "Successful login from 127.0.0.1"
+    },
+    {
+      "id": "aud-1788497616858-901",
+      "timestamp": "2026-09-04T04:53:36.858Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "LOGIN",
+      "target": "Admin Portal",
+      "details": "Successful login from 127.0.0.1"
+    },
+    {
+      "id": "aud-1788437757893-178",
+      "timestamp": "2026-09-03T12:15:57.893Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "TOGGLE_PRODUCT_STATUS",
+      "target": "Wide-Mouth Confectionery & Candy PET Jar \u2014 500ml / 1000ml / 1500ml",
+      "details": "New status: draft"
+    },
+    {
+      "id": "aud-1788437756202-124",
+      "timestamp": "2026-09-03T12:15:56.202Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "TOGGLE_PRODUCT_STATUS",
+      "target": "High-Pressure Pop-Tab PET Beverage Can \u2014 330ml / 500ml (Plain Flat Base)",
+      "details": "New status: draft"
+    },
+    {
+      "id": "aud-1788437747081-823",
+      "timestamp": "2026-09-03T12:15:47.081Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "TOGGLE_PRODUCT_STATUS",
+      "target": "Square Profile Space-Saving PET Jar \u2014 500ml / 750ml / 1000ml",
+      "details": "New status: published"
+    },
+    {
+      "id": "aud-1788437743398-648",
+      "timestamp": "2026-09-03T12:15:43.398Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "TOGGLE_PRODUCT_STATUS",
+      "target": "Square Profile Space-Saving PET Jar \u2014 500ml / 750ml / 1000ml",
+      "details": "New status: draft"
+    },
+    {
+      "id": "aud-1788437739794-949",
+      "timestamp": "2026-09-03T12:15:39.794Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "TOGGLE_PRODUCT_STATUS",
+      "target": "Custom PET Jar & Can Mold Tooling Engineering",
+      "details": "New status: draft"
+    },
+    {
+      "id": "aud-1788437708509-650",
+      "timestamp": "2026-09-03T12:15:08.509Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "LOGIN",
+      "target": "Admin Portal",
+      "details": "Successful login from 127.0.0.1"
+    },
+    {
+      "id": "aud-1788328248159-89",
+      "timestamp": "2026-09-02T05:50:48.159Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "LOGIN",
+      "target": "Admin Portal",
+      "details": "Successful login from 127.0.0.1"
+    },
+    {
+      "id": "aud-1788258728014-371",
+      "timestamp": "2026-09-01T10:32:08.014Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "LOGIN",
+      "target": "Admin Portal",
+      "details": "Successful login from 127.0.0.1"
+    },
+    {
+      "id": "aud-1",
+      "timestamp": "2026-09-01T10:31:18.603Z",
+      "userEmail": "admin@petcans.in",
+      "userName": "Executive Super Admin",
+      "userRole": "super_admin",
+      "action": "SYSTEM_BOOT",
+      "target": "PETCANS_ENGINEERING_PORTAL",
+      "details": "Production-ready server initialization with persistent disk state, RBAC security, and 12-hour report daemon."
+    }
+  ]
+}
